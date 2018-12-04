@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 
 export default class App extends Component {
   render() {
@@ -8,7 +9,8 @@ export default class App extends Component {
     // Using Flexbox for positioning.
     return (
       <View>
-        <Header headerText='Another Header!'/>
+        <Header headerText='Albums!'/>
+        <AlbumList />
       </View>
     );
   }

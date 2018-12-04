@@ -1,3 +1,4 @@
+// header.js is the header/bar component for the whole app.
 import React from 'react';
 import { Text, View } from 'react-native';
 
